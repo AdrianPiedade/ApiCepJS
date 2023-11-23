@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <div class="black1"></div>
+    <div class="white">
+        <div class="header">
+            <img src="./img/—Pngtree—vector location icon silhouette_9117654.png" alt="">
+            <h1>Busca CEP</h1>
+        </div>
+        <div class="body">
+            <form id="cepForm">
+                <div class="form-group">
+                    <label for="cep">CEP:</label>
+                    <input type="text" id="cep" name="cep" placeholder="Digite o CEP" class="highlight">
+                </div>
+                <div class="form-group">
+                    <label for="logradouro">Logradouro:</label>
+                    <input type="text" id="logradouro" name="logradouro" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="complemento">Complemento:</label>
+                    <input type="text" id="complemento" name="complemento" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="bairro">Bairro:</label>
+                    <input type="text" id="bairro" name="bairro" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="localidade">Localidade:</label>
+                    <input type="text" id="localidade" name="localidade" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="uf">UF:</label>
+                    <input type="text" id="uf" name="uf" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="ddd">DDD:</label>
+                    <input type="text" id="ddd" name="ddd" readonly>
+                </div>
+                <button type="button" onclick="buscarCEP()">Buscar</button>
+            </form>
+        </div>
+        <div class="floor">
+            <h2>By ader.</h2>
+        </div>
+    </div>
+    <div class="black2"></div>
+</body>
